@@ -23,3 +23,13 @@ p {
 header {
     position: relative;
 }
+
+/* Utilities */
+
+.align-center {
+    text-align: center;
+}
+
+.max-width-readable {
+    max-width: 800px;
+}
