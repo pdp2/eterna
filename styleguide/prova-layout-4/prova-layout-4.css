@@ -1,0 +1,102 @@
+.intro {
+    background: 
+        linear-gradient(rgba(0 0 0 / 0.3), rgba(0 0 0 / 0.3)), 
+        url("../../assets/vineyard-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: grid;
+    align-items: start;
+}
+
+.intro__header {
+    /* background: rgba(0,0,0,0.1); */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.1rem 2%;
+}
+
+.intro__headerHeading {
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 0.5);
+    letter-spacing: 0.1em;
+    margin: 0 0.5rem 0 0;
+}
+
+.intro__headerHeading a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.intro__nav {
+    flex: 1 1 auto;
+}
+
+.intro__nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.intro__navItem {
+    font-size: 1.4375rem;
+    font-family: 'Cardo', serif;
+}
+
+.intro__nav ul a {
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 0.5);
+}
+
+.intro__nav ul a:hover {
+    text-decoration: underline;
+}
+
+.intro__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0 4rem;
+}
+
+.intro__mainHeading {
+    color: #fff;
+    font-size: 3rem;
+    margin-top: 0;
+    text-align: center;
+}
+
+.intro__callToAction {
+    text-align: center;
+}
+
+.intro__mainAnchor {
+    border: 2px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1rem 4rem;
+    transition: all ease .3s;
+    letter-spacing: .3rem;
+}
+
+.intro__mainAnchor:hover, .intro__mainAnchor:focus {
+    color: #000;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.vini {
+    padding-top: 3rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
