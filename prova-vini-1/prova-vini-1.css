@@ -1,0 +1,46 @@
+
+.vini__container {
+    display: flex;
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+
+.vino {
+    display: flex;
+    flex: 0 0 auto;
+    padding: 1rem;
+    scroll-snap-align: start;
+    width: 100%;
+}
+
+.vino.hidden {
+    display: none;
+}
+
+.vino a {
+    color: #B20023;
+    text-decoration: none;
+}
+
+.vino__infoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.vino__navigation {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.vino__linkContainer img {
+    max-width: 30px;
+    margin-bottom: 1rem;
+}
+
+.vino__nextLink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
